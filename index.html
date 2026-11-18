@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>habib. · data analyst</title>
+  <meta name="description" content="Cheikh Mouhamadou Habib FALL : projets d'analyse de données, du pipeline à la visualisation." />
+  <meta name="theme-color" content="#0f1110" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top" aria-label="Retour en haut">habib<span>.</span></a>
+    <nav aria-label="Navigation principale">
+      <a href="#projets">Projets</a>
+      <a href="#parcours">Parcours</a>
+      <a href="https://github.com/habibfl" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ACCUEIL -->
+    <section class="hero" aria-label="Accueil">
+      <div class="hero__art" aria-hidden="true">
+        <canvas id="field"></canvas>
+      </div>
+      <div class="hero__text">
+        <p class="eyebrow">Cheikh Mouhamadou Habib FALL</p>
+        <h1>
+          Habib transforme des <strong>données</strong> brutes en
+          <strong>analyses</strong> claires, <strong>visuelles</strong> et
+          <strong>reproductibles</strong>.
+        </h1>
+        <p class="hero__sub">
+          Du pipeline à la visualisation : collecte, base de données, modélisation et data stories.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projets" class="section">
+      <h2 class="section__title reveal">Projets</h2>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__cover">
+            <div class="card__shots">
+              <img class="shot shot--large" src="img/flight-desktop.webp" width="1200" height="750" alt="" loading="lazy" />
+              <img class="shot shot--small" src="img/flight-mobile.webp" width="390" height="844" alt="" loading="lazy" />
+            </div>
+          </div>
+          <h3 class="card__title">
+            <a class="card__link" href="https://flight-delays-one.vercel.app" target="_blank" rel="noopener">Pourquoi les avions sont en retard</a>
+          </h3>
+          <div class="card__info">
+            <p>
+              14,1 millions de vols intérieurs américains (2024 et 2025), croisés heure par heure avec la
+              météo de leur aéroport de départ. Pipeline Python, entrepôt DuckDB, modèle de prédiction,
+              data story interactive et rapport Power BI.
+            </p>
+            <ul class="tags" aria-label="Technologies">
+              <li>Python</li><li>DuckDB</li><li>SQL</li><li>scikit-learn</li><li>Power BI</li><li>D3.js</li>
+            </ul>
+            <p class="card__links">
+              <a href="https://flight-delays-one.vercel.app" target="_blank" rel="noopener">Voir le site <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/habibfl/flight-delays" target="_blank" rel="noopener">Code <span aria-hidden="true">↗</span></a>
+            </p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__cover">
+            <div class="card__shots">
+              <img class="shot shot--large" src="img/gambeta-desktop.webp" width="1200" height="750" alt="" loading="lazy" />
+              <img class="shot shot--small" src="img/gambeta-mobile.webp" width="390" height="844" alt="" loading="lazy" />
+            </div>
+          </div>
+          <h3 class="card__title">
+            <a class="card__link" href="https://gambeta-flame.vercel.app" target="_blank" rel="noopener">Gambeta</a>
+          </h3>
+          <div class="card__info">
+            <p>
+              Le football des cinq grands championnats européens décodé par la donnée : 8 908 matchs sur
+              cinq saisons, collecte automatisée, base PostgreSQL, statistiques avancées (xG, xA),
+              clustering de joueurs et modèles prédictifs.
+            </p>
+            <ul class="tags" aria-label="Technologies">
+              <li>Python</li><li>pandas</li><li>scikit-learn</li><li>PostgreSQL</li><li>React</li><li>D3.js</li>
+            </ul>
+            <p class="card__links">
+              <a href="https://gambeta-flame.vercel.app" target="_blank" rel="noopener">Voir le site <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/habibfl/gambeta" target="_blank" rel="noopener">Code <span aria-hidden="true">↗</span></a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PARCOURS -->
+    <section id="parcours" class="section">
+      <h2 class="section__title reveal">Parcours</h2>
+
+      <div class="path">
+        <div class="path__row reveal">
+          <p class="path__label">Formation</p>
+          <div class="path__body">
+            <p class="path__date">2023 — 2026</p>
+            <h3>Licence professionnelle Télécommunications et Informatique</h3>
+            <p class="path__meta">Spécialité Développement d'Applications Réparties · ESMT, Dakar</p>
+          </div>
+        </div>
+
+        <div class="path__row reveal">
+          <p class="path__label">Expérience</p>
+          <div class="path__body">
+            <p class="path__date">2026 · Stage</p>
+            <h3>SENELEC, Direction des Systèmes d'Information</h3>
+            <p class="path__meta">Conception et développement des versions web et mobile de l'application Suivi PNT.</p>
+          </div>
+        </div>
+
+        <div class="path__row reveal">
+          <p class="path__label">Certifications</p>
+          <div class="path__body">
+            <p class="path__date">Cisco Networking Academy</p>
+            <ul class="chips">
+              <li>Python Essentials 1</li>
+              <li>Python Essentials 2</li>
+              <li>Introduction to Data Science</li>
+              <li>Data Science Essentials with Python</li>
+              <li>Data Analytics Essentials</li>
+              <li>CCNA : Switching, Routing and Wireless Essentials</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="path__row reveal">
+          <p class="path__label">Outils</p>
+          <div class="path__body">
+            <p class="path__date">Data</p>
+            <ul class="chips chips--green">
+              <li>Python</li><li>pandas</li><li>scikit-learn</li><li>statsmodels</li><li>SQL</li>
+              <li>DuckDB</li><li>PostgreSQL</li><li>Power BI</li><li>D3.js</li>
+            </ul>
+            <p class="path__date">Développement</p>
+            <ul class="chips">
+              <li>React</li><li>Java</li><li>PHP</li><li>Laravel</li><li>Django</li><li>Flutter</li><li>Git</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="path__row reveal">
+          <p class="path__label">Aujourd'hui</p>
+          <div class="path__body">
+            <p class="path__now">
+              Je me spécialise en <strong>analyse de données</strong>, avec un intérêt particulier
+              pour la <strong>data du sport</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__big">Un projet, une question, une donnée à creuser ?</p>
+    <p>
+      <a href="https://github.com/habibfl" target="_blank" rel="noopener">github.com/habibfl <span aria-hidden="true">↗</span></a>
+    </p>
+    <p class="footer__small">© 2026 Cheikh Mouhamadou Habib FALL</p>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
